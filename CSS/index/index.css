@@ -1,6 +1,7 @@
 body{
-    width: 90%;
-    margin-left: 5%;
+    width: 96%;
+    margin: auto;
+    background-color: #93d5dc;
 }
 
 .HeadLine{
@@ -9,9 +10,11 @@ body{
 
 #header{
     background-color: #57c3c2;
+    border-radius:6px;
     display: block;
-    width:auto;
+    width:90%;
     height: 64px;
+    margin: auto;
     margin-top: 4px;
 }
 
@@ -31,6 +34,7 @@ body{
     margin-left: 330px;
     margin-top: 2px;
 }
+
 #top_menu .top_menu_item{
     display: block;
     width: 164px;
@@ -39,15 +43,45 @@ body{
     margin-top: 2px;
     float: left;
 }
+
 #top_menu .top_menu_item a{
+    border-radius: 16px;
     display: block;
     background-color: #29b7cb;
-    color:#c4d7d6;
-    width: 156px;
-    height: 48px;
+    color:#cef1f0;
+    width: 148px;
+    font-family:'Courier New', Courier, monospace;
+    height: 36px;
     text-align: center;
     text-decoration: none;
+    margin-top: 10px;
+    margin-left: 12px;
+    font-weight: bold;
+    font-size:x-large;
+    transition: width 1s,height 1s;
+}
+
+#top_menu .top_menu_item a:hover{
+    width: 156px;
+    height: 48px;
     margin-top: 4px;
-    margin-left: 4px;
-    font-size:xx-large;
+    font-size: xx-large;
+}
+
+#article{
+    display: block;
+    width: 90%;
+    height: max-content;
+    margin: auto;
+    margin-top: 32px;
+    background-color: #93b5cf;
+}
+
+#article .item{
+    display: block;
+    background-color: #619ac3;
+    width: 90%;
+    height: 128px;
+    margin: auto;
+    margin-top: 16px;
 }
