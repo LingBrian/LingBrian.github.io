@@ -1,3 +1,53 @@
+body{
+    width: 90%;
+    margin-left: 5%;
+}
+
 .HeadLine{
     text-align:center;
+}
+
+#header{
+    background-color: #57c3c2;
+    display: block;
+    width:auto;
+    height: 64px;
+    margin-top: 4px;
+}
+
+#mylogo{
+    display: block;
+    float: left;
+    width: 308px;
+    height: 60px;
+    margin-left: 0;
+    margin-top: 2px;
+}
+
+#top_menu{
+    display: block;
+    width: 900px;
+    height: 60px;
+    margin-left: 330px;
+    margin-top: 2px;
+}
+#top_menu .top_menu_item{
+    display: block;
+    width: 164px;
+    height: 56px;
+    margin-left: 13px;
+    margin-top: 2px;
+    float: left;
+}
+#top_menu .top_menu_item a{
+    display: block;
+    background-color: #29b7cb;
+    color:#c4d7d6;
+    width: 156px;
+    height: 48px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 4px;
+    margin-left: 4px;
+    font-size:xx-large;
 }
