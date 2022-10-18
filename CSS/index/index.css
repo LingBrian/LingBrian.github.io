@@ -85,3 +85,7 @@ body{
     margin: auto;
     margin-top: 16px;
 }
+#article .item .avatar{
+    height: 64px;
+    width: 64px;
+}
