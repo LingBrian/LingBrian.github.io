@@ -9,10 +9,11 @@ body{
 }
 
 #header{
+    position: fixed;
     background-color: #57c3c2;
     border-radius:6px;
     display: block;
-    width:90%;
+    width:95%;
     height: 64px;
     margin: auto;
     margin-top: 4px;
@@ -31,7 +32,7 @@ body{
     display: block;
     width: 900px;
     height: 60px;
-    margin-left: 330px;
+    margin-left: 30%;
     margin-top: 2px;
 }
 
@@ -69,11 +70,12 @@ body{
 }
 
 #article{
+    position: fixed;
     display: block;
-    width: 90%;
+    width: 95%;
     height: max-content;
     margin: auto;
-    margin-top: 32px;
+    margin-top: 128px;
     background-color: #93b5cf;
 }
 
@@ -86,6 +88,10 @@ body{
     margin-top: 16px;
 }
 #article .item .avatar{
+    display: block;
+    border-radius: 4px;
     height: 64px;
     width: 64px;
+    margin-bottom: 4px;
+    margin-left: 32px;
 }
