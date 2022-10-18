@@ -1,15 +1,19 @@
-body{
+body
+{
+    position:absolute;
     width: 96%;
     margin: auto;
     background-color: #93d5dc;
 }
 
-.HeadLine{
+.HeadLine
+{
     text-align:center;
 }
 
-#header{
-    position: fixed;
+#header
+{
+    position: relative;
     background-color: #57c3c2;
     border-radius:6px;
     display: block;
@@ -19,7 +23,8 @@ body{
     margin-top: 4px;
 }
 
-#mylogo{
+#mylogo
+{
     display: block;
     float: left;
     width: 308px;
@@ -28,7 +33,8 @@ body{
     margin-top: 2px;
 }
 
-#top_menu{
+#top_menu
+{
     display: block;
     width: 900px;
     height: 60px;
@@ -36,7 +42,8 @@ body{
     margin-top: 2px;
 }
 
-#top_menu .top_menu_item{
+#top_menu .top_menu_item
+{
     display: block;
     width: 164px;
     height: 56px;
@@ -45,7 +52,8 @@ body{
     float: left;
 }
 
-#top_menu .top_menu_item a{
+#top_menu .top_menu_item a
+{
     border-radius: 16px;
     display: block;
     background-color: #29b7cb;
@@ -68,24 +76,58 @@ body{
     margin-top: 4px;
     font-size: xx-large;
 }
-
+#imgshower{
+    display: block;
+    width: 384px;
+    height: 216px;
+    margin: auto;
+    margin-top: 1%;
+    overflow: hidden;
+    background-color: #547ce8;
+}
+.imgbox img{
+    width: 384px;
+    height: 216px;
+}   
+.imgbox{
+    width: 1152px;
+    height: 216px;
+    margin: auto;
+    animation:text 10s infinite  linear;
+    font-size: 0px;
+}
+@keyframes text {          /*0%-20%是播放下一个图片，0%-10%是图片暂停的时间*/
+    0%,25%{
+        margin-left:0px;
+    }
+    35%,60%{
+        margin-left:-384px;
+    }
+    70%,95%{
+        margin-left:-768px;
+    }
+}
 #article{
-    position: fixed;
+    position: absolute;
     display: block;
     width: 95%;
     height: max-content;
     margin: auto;
-    margin-top: 128px;
+    margin-left: 2.5%;
+    margin-top: 32px;
     background-color: #93b5cf;
 }
 
 #article .item{
     display: block;
     background-color: #619ac3;
-    width: 90%;
+    width: 256px;
     height: 128px;
     margin: auto;
-    margin-top: 16px;
+    margin-top: 1%;
+    margin-left: 1.5%;
+    margin-bottom: 1%;
+    float: left;
 }
 #article .item .avatar{
     display: block;
@@ -93,5 +135,5 @@ body{
     height: 64px;
     width: 64px;
     margin-bottom: 4px;
-    margin-left: 32px;
+    margin-left: 8px;
 }
