@@ -1,0 +1,21 @@
+.showStage{
+    display:flex;
+    flex-direction:row;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+.showStage .bar{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 2.5%;
+}
+.showStage .bar .item{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+/*并列排序指导：https://blog.csdn.net/weixin_44185143/article/details/110210131*/

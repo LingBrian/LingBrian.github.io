@@ -1,0 +1,82 @@
+*{  
+    margin: 0;
+}
+body
+{
+    background-color: #93d5dc;
+}
+
+.HeadLine
+{
+    text-align:center;
+}
+
+#header
+{
+    position: fixed;
+    position: relative;
+    background-color: #57c3c2;
+    border-radius:6px;
+    display: block;
+    height: 64px;
+    margin: auto;
+    margin-top: 4px;
+}
+
+#mylogo
+{
+    display: block;
+    float: left;
+    width: 308px;
+    height: 60px;
+    margin-left: 0;
+    margin-top: 2px;
+}
+
+#top_menu
+{
+    display: block;
+    width: 900px;
+    height: 60px;
+    margin-left: 30%;
+    margin-top: 2px;
+}
+
+#top_menu .top_menu_item
+{
+    display: block;
+    width: 164px;
+    height: 56px;
+    margin-top: 2px;
+    float: left;
+}
+
+#top_menu .top_menu_item a
+{
+    border-radius: 16px;
+    display: block;
+    background-color: #29b7cb;
+    color:#cef1f0;
+    width: 148px;
+    font-family:'Courier New', Courier, monospace;
+    height: 36px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 12px;
+    font-weight: bold;
+    font-size:x-large;
+    transition: width 1s,height 1s;
+}
+
+#top_menu .top_menu_item a:hover{
+    width: 156px;
+    height: 48px;
+    margin-top: 4px;
+    font-size: xx-large;
+}
+#footer{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 0px;
+}
