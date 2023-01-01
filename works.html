@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="CSS/works.css" rel="stylesheet" type="text/css">
     <link href="CSS/defalut.css" rel="stylesheet" type="text/css">
+    <script src="JS/Works/works.js"></script>
     <link rel="shortcut icon" href="Img/Logo/favicon.ico" type="image/x-icon">
     <title>LingBrian's works</title>
 </head>
@@ -50,6 +51,7 @@
             </div>
             
         </span>
+
         <span class="bar">
             <div>
                 <img margin="auto" height="64px" width="64px" float="left" src="Img/Works/icons/Photo.bmp">
@@ -58,14 +60,21 @@
             
             <div class="item">
                 
-            </div>
-            <div class="item">
+                    <img onclick="view()" src="Img/Works/Photo/Portrit/index.jpg" alt="Portrit" width="100%">
                 
             </div>
             <div class="item">
                 
+                    <img src="Img/Works/Photo/Scenery/index.jpg" alt="Portrit" width="100%">
+            
+            </div>
+            <div class="item">
+                
+                    <img src="Img/Works/Photo/Activity/index.jpg" alt="Portrit" width="100%">
+            
             </div>
         </span>
+
         <span class="bar">
             <div>
                 <img margin="auto" height="64px" width="64px" float="left" src="Img/Works/icons/Lives.bmp">
@@ -84,9 +93,19 @@
         </span>
     </div>
 
+    <!-- 展示遮罩 -->
+    <div id="showcase_bg" onclick="view_close()">
+        
+    </div>
+    <div id="showcase">
+        <img  src="Img/Works/Photo/Portrit/微信图片_20221229135136.jpg" width="25%" >
+        <img  src="Img/Works/Photo/Portrit/index.jpg" width="48%" >
+        <img  src="Img/Works/Photo/Portrit/微信图片_20221229135156.jpg" width="25%" >
+    </div>
     <!-- 底部 -->
     <div id="footer">
         &copy;LingBrian 2022-2023
     </div>
+
 </body>
 </html>
