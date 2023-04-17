@@ -30,8 +30,9 @@
 }
 #showcase{
     position: absolute;
-    width: 50%;
-    margin-left: 25%;
+    width:auto;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 12.5%;
     background-color: white;
     z-index: 3;
