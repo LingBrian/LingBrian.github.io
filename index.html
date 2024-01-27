@@ -7,10 +7,31 @@
         <link rel="shortcut icon" href="Img/Logo/favicon.ico" type="image/x-icon">
         <link href="CSS/index/index.css" rel="stylesheet" type="text/css">
         <link href="CSS/defalut.css" rel="stylesheet" type="text/css">
+         <!-- 引入样式 -->
+         <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+         <!-- 引入组件库 -->
+         <script src="https://unpkg.com/element-ui/lib/index.js"></script>
     </head>
     <body>
         <div id="header">
-            <a href="index.html"><img id ="mylogo" src="Img/Logo/MyLogo.png" alt="BrianLing's Blog"></a>
+<el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
+  <el-menu-item index="1">处理中心</el-menu-item>
+  <el-submenu index="2">
+    <template slot="title">我的工作台</template>
+    <el-menu-item index="2-1">选项1</el-menu-item>
+    <el-menu-item index="2-2">选项2</el-menu-item>
+    <el-menu-item index="2-3">选项3</el-menu-item>
+    <el-submenu index="2-4">
+      <template slot="title">选项4</template>
+      <el-menu-item index="2-4-1">选项1</el-menu-item>
+      <el-menu-item index="2-4-2">选项2</el-menu-item>
+      <el-menu-item index="2-4-3">选项3</el-menu-item>
+    </el-submenu>
+  </el-submenu>
+  <el-menu-item index="3" disabled>消息中心</el-menu-item>
+  <el-menu-item index="4"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item>
+</el-menu>
+		<a href="index.html"><img id ="mylogo" src="Img/Logo/MyLogo.png" alt="BrianLing's Blog"></a>
             <div id="top_menu">
 
                 <div class="top_menu_item"><a target="_blank" href="Img/resume.png">个人介绍</a></div>                
